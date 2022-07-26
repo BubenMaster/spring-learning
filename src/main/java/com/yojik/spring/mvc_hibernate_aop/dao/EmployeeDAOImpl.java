@@ -17,13 +17,13 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     private SessionFactory sessionFactory;
 
     @Override
-    @Transactional
+//    @Transactional
     public List<Employee> getAllEmployees() {
         Session session = sessionFactory.getCurrentSession();
         List<Employee> allEmployees =session.createQuery("from Employee", Employee.class).getResultList();
 //        Query<Employee> query = session.createQuery("FROM Employee");
 //        List<Employee> allEmployees = query.getResultList();
-        System.out.println(allEmployees);
+//        System.out.println(allEmployees);
 
         return allEmployees;
     }

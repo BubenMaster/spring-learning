@@ -11,14 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d648cb98-dddd-4978-87e7-d80dc6369852" name="Changes" comment="Learn how to show all from table">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/controller/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/dao/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-employees.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/service/EmployeeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -168,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658840759435</updated>
       <workItem from="1658840760919" duration="9319000" />
-      <workItem from="1658863602495" duration="1546000" />
+      <workItem from="1658863602495" duration="4365000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Configuration">
       <created>1658845769692</created>
@@ -177,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658845769692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Learn how to show all from table">
+      <created>1658865294334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658865294334</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
