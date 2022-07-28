@@ -3,12 +3,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Adding new employee</title>
+    <title>Edit employee</title>
 </head>
 <br>
 <body>
 <form:form action="${pageContext.request.contextPath}/save-employee/"
            modelAttribute="addedEmployee" >
+
+    <form:hidden path="id"/>
+
     Name: <form:input type="text" path="name"  />
     <br>
     Surname:  <form:input type="text" path="surname"  />

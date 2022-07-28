@@ -8,5 +8,7 @@ public interface EmployeeDAO {
     List<Employee> getAllEmployees();
     List<String> getDepartments();
 
-    void saveEmployee(Employee employee);
+    void saveOrUpdateEmployee(Employee employee);
+
+    Employee getEmployee(int id);
 }

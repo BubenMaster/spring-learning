@@ -10,5 +10,7 @@ public interface EmployeeService {
 
     List<String> getDepartments();
 
-   void saveEmployee(Employee employee);
+   void saveOrUpdateEmployee(Employee employee);
+
+    Employee getEmployee(int id);
 }
