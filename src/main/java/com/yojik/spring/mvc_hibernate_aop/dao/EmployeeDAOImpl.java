@@ -34,7 +34,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     public List<String> getDepartments() {
         Session session = sessionFactory.getCurrentSession();
         List<String> departments = session.createQuery("Select distinct department from Employee",String.class).getResultList();
-        System.out.println(departments);
         return departments;
     }
 
@@ -56,7 +55,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 //        Employee employee = session.get(Employee.class, id);
 //        session.delete(employee);
         Query<Employee> query= session.createQuery("delete from Employee " +
-                "where id =:employeeId", Employee.class);
+                "where id =:employeeId");
         query.setParameter("employeeId", id);
         query.executeUpdate();
     }
