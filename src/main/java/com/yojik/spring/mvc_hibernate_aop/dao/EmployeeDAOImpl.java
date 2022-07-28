@@ -23,8 +23,21 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         List<Employee> allEmployees =session.createQuery("from Employee", Employee.class).getResultList();
 //        Query<Employee> query = session.createQuery("FROM Employee");
 //        List<Employee> allEmployees = query.getResultList();
-//        System.out.println(allEmployees);
+       System.out.println(allEmployees);
 
         return allEmployees;
+    }
+
+    public List<String> getDepartments() {
+        Session session = sessionFactory.getCurrentSession();
+        List<String> departments = session.createQuery("Select distinct department from Employee",String.class).getResultList();
+        System.out.println(departments);
+        return departments;
+    }
+
+    @Override
+    public void saveEmployee(Employee employee) {
+        Session session = sessionFactory.getCurrentSession();
+        session.save(employee);
     }
 }

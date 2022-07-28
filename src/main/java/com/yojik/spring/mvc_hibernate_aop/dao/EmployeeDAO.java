@@ -5,5 +5,8 @@ import com.yojik.spring.mvc_hibernate_aop.entity.Employee;
 import java.util.List;
 
 public interface EmployeeDAO {
-    public List<Employee> getAllEmployees();
+    List<Employee> getAllEmployees();
+    List<String> getDepartments();
+
+    void saveEmployee(Employee employee);
 }

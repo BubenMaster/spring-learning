@@ -24,8 +24,10 @@
     </c:forEach>
 
 </table>
-
 <br>
+<input type="button" value="Add" onclick="window.location.href = '/spring_mvc_hibernate/add-new-employee/'"/>
+
+<br><br>
 <a href="${pageContext.request.contextPath}/">Home page</a>
 </body>
 </html>
