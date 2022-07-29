@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d648cb98-dddd-4978-87e7-d80dc6369852" name="Changes" comment="Learn Delete function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/aspect/MyLoggingAspect.java" afterDir="false" />
+    <list default="true" id="d648cb98-dddd-4978-87e7-d80dc6369852" name="Changes" comment="Learn AOP insertion into MVC-Hibernate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/mvc_hibernate_aop/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee-info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee-info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first-page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first-page.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "spring",
-    "spring.configuration.checksum": "29ac1a0bc25fc49e3283ef7a49d503fb"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;29ac1a0bc25fc49e3283ef7a49d503fb&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.yojik.spring.mvc_hibernate_aop.controller" />
@@ -185,7 +184,8 @@
       <workItem from="1658840760919" duration="9319000" />
       <workItem from="1658863602495" duration="4588000" />
       <workItem from="1658944901364" duration="7112000" />
-      <workItem from="1658998136960" duration="17709000" />
+      <workItem from="1658998136960" duration="18388000" />
+      <workItem from="1659097999609" duration="1946000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Configuration">
       <created>1658845769692</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659017016106</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Learn AOP insertion into MVC-Hibernate">
+      <created>1659022344076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659022344076</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +260,8 @@
     <MESSAGE value="Learn Add function + getting List&lt;String&gt; of desire parameter from table" />
     <MESSAGE value="Learn Update function" />
     <MESSAGE value="Learn Delete function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn Delete function" />
+    <MESSAGE value="Learn AOP insertion into MVC-Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn AOP insertion into MVC-Hibernate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
